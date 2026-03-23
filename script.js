@@ -72,7 +72,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Animate elements on scroll
-document.querySelectorAll('.skill-category, .project-card, .timeline-item, .cert-card, .contact-card, .exp-card').forEach(el => {
+document.querySelectorAll('.skill-category, .project-card, .timeline-item, .cert-card, .contact-card, .experience-item, .achievement-category').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(30px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
